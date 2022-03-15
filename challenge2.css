@@ -33,7 +33,7 @@
     margin-top: -5%;
     border-radius: 50%;
     background: linear-gradient(to right bottom, 
-    rgba(255, 215, 83, 0.7), 
+    rgba(255, 215, 83, 1), 
     rgba(226, 27, 27, 0.3));
 }
 
@@ -73,6 +73,11 @@
     /* padding-left: 40%; */
 }
 
+.wolk {
+    z-index: -2;
+    float: left;
+}
+
 /*Vormgeving glasplaat*/
 .glass { 
     background: white;
@@ -85,24 +90,16 @@
 
 
 /*Mobile*/
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: yellow;
-    }
-}
+@media only screen and (max-width: 600px) {}
 
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
-    body {
-        background-color: purple;
-    }
-
-    .left , .right {
-        float: center;  
+    .zon , .clock {
+        width: 247px;
+        height: 247px;
     }
 }
 
-    
 
 /* Laptop (kleine desktop)*/
 @media only screen and (min-width: 1024px) and (max-width: 1598px) {
@@ -123,6 +120,8 @@
     .zon , .clock {
         margin-top: -50%;
         float: left;
+        width: 287px;
+        height: 287px;
     }
 }
 
@@ -136,3 +135,12 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+
+
+/* Achtergrond omgeving timezones
+.morning{	
+	background-image: url(../afb/morning.png); 
+	background-repeat: no-repeat;
+  	background-size: 315%;
+  	background-position: center; */
