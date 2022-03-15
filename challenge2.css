@@ -134,6 +134,16 @@
     .gridContainer {
         grid-template-columns: 1fr 1fr;
     }
+
+    .zon , .clock {
+        margin-top: -50%;
+        width: 387px;
+        height: 387px;
+    }
+
+    #clock {
+        font-size: 300%;
+    }
 }
 
 
