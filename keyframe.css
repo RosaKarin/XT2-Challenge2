@@ -1,6 +1,6 @@
 .keyframe { 
-    width: 187px;
-    height: 187px;
+    width: 189px;
+    height: 189px;
     /* background-color: white; */
     background: linear-gradient(to right bottom, 
     rgba(255, 215, 83, 0.7), 
@@ -52,7 +52,7 @@
 @media only screen and (min-width: 1599px) {
     .keyframe {
         margin-top: -50%;
-        width: 387px;
-        height: 387px;
+        width: 389px;
+        height: 389px;
     }
 }

@@ -127,6 +127,10 @@
         width: 287px;
         height: 287px;
     }
+
+    #clock {
+        font-size: 250%;
+    }
 }
 
 /*Grote desktop*/
@@ -153,8 +157,18 @@
 
 
 /* /* Achtergrond omgeving timezones */
-/* .sunset{	
+/* .sunrise{	
 	background-image: url("sunset.png"); 
-	background-repeat: no-repeat;
-  	background-position: center;
+}
+
+.day{	
+	background-image: url("day.png"); 
+}
+
+.sunset{	
+	background-image: url("sunset.png"); 
+}
+
+.evening{	
+	background-image: url("evening.png"); 
 } */
