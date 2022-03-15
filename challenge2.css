@@ -98,6 +98,10 @@
         width: 247px;
         height: 247px;
     }
+
+    .gridContainer {
+        display: grid;
+    }
 }
 
 
@@ -148,9 +152,9 @@
 
 
 
-/* Achtergrond omgeving timezones
-.morning{	
-	background-image: url(../afb/morning.png); 
+/* /* Achtergrond omgeving timezones */
+/* .sunset{	
+	background-image: url("sunset.png"); 
 	background-repeat: no-repeat;
-  	background-size: 315%;
-  	background-position: center; */
+  	background-position: center;
+} */

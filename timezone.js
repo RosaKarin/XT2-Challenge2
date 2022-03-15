@@ -3,7 +3,7 @@
 function updateTimeFrame(){
 	var now = new Date();
 	var h = now.getHours();
-    var background = document.getElementsByClassName('scenery');
+    var background = document.getElementsByClassName('body');
 		
 	if (h >= 6 && h < 8){ //Sunrise
         document.getElementBy('body').style.backgroundColor = ('#ffa47f') //sunrise
@@ -24,6 +24,7 @@ function updateTimeFrame(){
 
 
 	} else if (h >= 18 && h < 24) { //Evening
+        // background.classList.add('sunset');
         document.getElementById('body').style.background = 'linear-gradient(#0f0f57, #60dbf9)'; //night
         document.getElementById('zon').style.background = 'radial-gradient(circle at top left, white, grey)'; //night
         document.getElementById('keyframe').style.boxShadow = '0px 0px 5px white'; //night
